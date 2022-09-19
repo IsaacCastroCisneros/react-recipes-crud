@@ -1,95 +1,40 @@
 {
   "recipes": [
     {
-      "id": 1,
-      "title": "ass",
-      "time": "45",
-      "instructions": "lorem lorem lorem loremlorem loremlorem loremlorem lorem"
-    },
-    {
-      "id": 2,
-      "title": "ass2",
-      "time": "45",
-      "instructions": "lorem lorem lorem loremlorem loremlorem loremlorem lorem"
-    },
-    {
-      "id": 3,
-      "title": "ass3",
-      "time": "45",
-      "instructions": "lorem lorem lorem loremlorem loremlorem loremlorem lorem"
-    },
-    {
-      "id": "1faef27f-5b18-47a8-a562-52ddc048be3c",
-      "ingredients": [],
-      "title": "fdfd",
-      "instructions": "fdfdfd",
-      "time": "fdfdfd"
-    },
-    {
-      "id": "ee2be4dc-5be9-449a-8aa2-e79478f6c06f",
+      "id": "9844de98-845e-485e-8244-2b65200694b9",
       "ingredients": [
-        "fdfdfd"
+        {
+          "id": "46f41c3f-2b94-4ee1-87a2-721c1bc2acde",
+          "ingredient": "tomate"
+        },
+        {
+          "id": "6bb43bcd-2b63-4116-9382-28b62996102c",
+          "ingredient": "fdfd"
+        },
+        {
+          "id": "3b054df2-caba-4a35-ae83-666bca16b085",
+          "ingredient": ""
+        },
+        {
+          "id": "763f3742-cd8e-44c6-a5dd-8b10f8f3c339",
+          "ingredient": ""
+        }
       ],
-      "title": "fdfd",
-      "instructions": "fdfdf",
-      "time": "fdfd"
+      "title": "recetaNuevaf",
+      "instructions": "cocinar",
+      "time": "5"
     },
     {
-      "id": "a651dc14-2d8f-4e05-a409-44c3909bd00a",
+      "id": "b55ad840-16ca-4340-979b-212d09f31fe1",
       "ingredients": [
-        "dfdfdf"
+        {
+          "id": "39d9bf67-f4ec-4571-b3f3-b204a3551b4a",
+          "ingredient": "hnmmm"
+        }
       ],
-      "title": "hmmmmm",
-      "instructions": "fdfd",
-      "time": "fdfd"
-    },
-    {
-      "id": "87e98839-22b4-4946-884d-d21fce320464",
-      "ingredients": [
-        "fdfd",
-        "fdfd",
-        "fdfd",
-        "fdfd"
-      ],
-      "title": "yoooooooo",
-      "instructions": "fdfd",
-      "time": "fdfdf"
-    },
-    {
-      "id": "aaa226a4-7726-4d8d-85f3-5395c7f46731",
-      "ingredients": [
-        "fdfdf"
-      ],
-      "title": "fdfd",
-      "instructions": "fdfd",
-      "time": "fdfd"
-    },
-    {
-      "id": "c8d89ad9-4dbf-4eac-9e3a-b635f12fe20a",
-      "ingredients": [
-        "fdfd"
-      ],
-      "title": "si",
-      "instructions": "gfgf",
-      "time": "fdfdf"
-    },
-    {
-      "id": "dd079b7e-be2c-4625-97fe-6210f6d5ca00",
-      "ingredients": [
-        "fdfdf"
-      ],
-      "title": "fdfd",
-      "instructions": "fdfd",
-      "time": "fdfd"
-    },
-    {
-      "id": "2fd3f983-b37e-4467-b43b-041962ab6438",
-      "ingredients": [
-        "fdfd"
-      ],
-      "title": "jjjj",
-      "instructions": "fdfd",
-      "time": "fdfd"
+      "title": "yo",
+      "instructions": "lmao",
+      "time": "4"
     }
   ]
 }

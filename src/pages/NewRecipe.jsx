@@ -14,8 +14,15 @@ export default function NewRecipe()
     {
       onSuccess:(data)=>
       {
+        navigate('/')
+        console.log('success')
         console.log(data)
+      },
+      onError:(err)=>
+      {
+        console.log(err)
       }
+
     })
 
   const inputIngredient = useRef();
@@ -26,7 +33,6 @@ export default function NewRecipe()
      if(newRecipe.ingredients.length===0)return setErrorMsg(true)
      setErrorMsg(false)
      mutate(newRecipe)
-     navigate('/')
   }
   function createRecipe(newProp)
   {
@@ -36,7 +42,7 @@ export default function NewRecipe()
   {
     inputIngredient.current.value=''
     inputIngredient.current.focus()
-    const newIngredients = [...newRecipe.ingredients,newIngredient.trim()]
+    const newIngredients = [...newRecipe.ingredients,newIngredient]
     createRecipe({ingredients:newIngredients})
   }
 
@@ -52,6 +58,7 @@ export default function NewRecipe()
       }
     })
 
+    
     return res.json()
   }
 
@@ -80,7 +87,10 @@ export default function NewRecipe()
             <button
               type="button"
               className='flex-[1] bg-primary text-white uppercase'
-              onClick={() => addIngredient(inputIngredient.current.value)}
+              onClick={() => addIngredient({
+                id:uuidv4(),
+                ingredient:inputIngredient.current.value.trim()
+                })}
             >
               add
             </button>

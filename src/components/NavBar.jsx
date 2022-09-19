@@ -1,7 +1,14 @@
-import {Link} from 'react-router-dom'
+import {Link,useNavigate,useSearchParams} from 'react-router-dom'
 
 export default function NavBar() 
 {
+  const navigate = useNavigate();
+
+  function search({target})
+  {
+    navigate(`/search?q=${target.value}`)
+  }
+
   return (
     <header className="px-[2rem] py-[1rem] bg-primary text-white">
       <nav className="flex mx-auto my-0 w-[100rem] max-w-[100%]">
@@ -14,6 +21,7 @@ export default function NavBar()
             <input
               className="rounded-[.3rem] py-[.5rem] px-[.7rem] text-black"
               type="text"
+              onChange={search}
             />
           </li>
           <li>
